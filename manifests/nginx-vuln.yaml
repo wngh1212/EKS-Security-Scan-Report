@@ -1,0 +1,9 @@
+eksctl create cluster \ 
+--name vuln-eval-cluster \ 
+--region ap northeast-2 \ 
+--version 1.30 \ 
+--node-type t3.medium \ 
+--nodes 2 \ -- managed \ 
+--spot \ 
+--full-ecr-access \ 
+--appmesh-access
