@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-authorized-only
+  namespace: default
+spec:
+  podSelector:
+    matchLabels:
+      app: nginx-vuln  
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          access: "true"
