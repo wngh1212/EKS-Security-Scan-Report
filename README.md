@@ -1,4 +1,4 @@
-# AWS EKS Vulnerability Assessment & NetworkPolicy Practice
+# AWS EKS Vulnerability Assessment & NetworkPolicy
 
 ##  Project Overview
 이 프로젝트는 **AWS EKS(Elastic Kubernetes Service)** 환경을 비용 효율적으로 구축하고 컨테이너 보안 취약점 진단 및 **NetworkPolicy**를 활용한 네트워크 격리를 구현하여 보안을 강화하는 과정
